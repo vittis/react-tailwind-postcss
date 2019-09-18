@@ -1,0 +1,12 @@
+/* sample class, not using at the moment */
+.navbar {
+    display: flex;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+    font-size: 1em;
+    @apply border-pink-900 mr-3;
+    & h1 {
+        @apply items-center bg-red-500;
+    }
+}
